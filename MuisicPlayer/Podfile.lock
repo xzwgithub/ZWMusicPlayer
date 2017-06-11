@@ -1,0 +1,15 @@
+PODS:
+  - MJExtension (3.0.13)
+  - NAKPlaybackIndicatorView (0.0.3)
+
+DEPENDENCIES:
+  - MJExtension
+  - NAKPlaybackIndicatorView
+
+SPEC CHECKSUMS:
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  NAKPlaybackIndicatorView: 794dd97576fe074bb1844c19ebcbf7509384a47f
+
+PODFILE CHECKSUM: b14161b8d320e53fa8e95c8e012d209e02c47857
+
+COCOAPODS: 1.2.1

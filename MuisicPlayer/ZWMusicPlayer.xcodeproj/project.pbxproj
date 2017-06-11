@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA413BD1EEA67F600076DEA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413741EEA67F500076DEA /* UIView+Extension.m */; };
+		6CA413BE1EEA67F600076DEA /* ZWLrcLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413791EEA67F500076DEA /* ZWLrcLineModel.m */; };
+		6CA413BF1EEA67F600076DEA /* ZWLrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4137C1EEA67F500076DEA /* ZWLrcCell.m */; };
+		6CA413C01EEA67F600076DEA /* ZWLrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4137E1EEA67F500076DEA /* ZWLrcView.m */; };
+		6CA413C11EEA67F600076DEA /* ZWPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413811EEA67F500076DEA /* ZWPlayingViewController.m */; };
+		6CA413C21EEA67F600076DEA /* ZWPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413821EEA67F500076DEA /* ZWPlayingViewController.xib */; };
+		6CA413C31EEA67F600076DEA /* ZWMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413861EEA67F500076DEA /* ZWMusicModel.m */; };
+		6CA413C41EEA67F600076DEA /* ZWMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413891EEA67F500076DEA /* ZWMusicCell.m */; };
+		6CA413C51EEA67F600076DEA /* ZWMusicPlayingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4138C1EEA67F500076DEA /* ZWMusicPlayingController.m */; };
+		6CA413C61EEA67F600076DEA /* bb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4138F1EEA67F500076DEA /* bb@2x.jpg */; };
+		6CA413C71EEA67F600076DEA /* bb_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413901EEA67F500076DEA /* bb_icon@2x.jpg */; };
+		6CA413C81EEA67F600076DEA /* dzq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413911EEA67F500076DEA /* dzq@2x.jpg */; };
+		6CA413C91EEA67F600076DEA /* dzq_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413921EEA67F500076DEA /* dzq_icon@2x.jpg */; };
+		6CA413CA1EEA67F600076DEA /* eason@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413931EEA67F500076DEA /* eason@2x.jpg */; };
+		6CA413CB1EEA67F600076DEA /* eason_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413941EEA67F500076DEA /* eason_icon@2x.jpg */; };
+		6CA413CC1EEA67F600076DEA /* jay@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413951EEA67F500076DEA /* jay@2x.jpg */; };
+		6CA413CD1EEA67F600076DEA /* jay_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413961EEA67F500076DEA /* jay_icon@2x.png */; };
+		6CA413CE1EEA67F600076DEA /* jj@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413971EEA67F500076DEA /* jj@2x.jpg */; };
+		6CA413CF1EEA67F600076DEA /* jj_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413981EEA67F500076DEA /* jj_icon@2x.png */; };
+		6CA413D01EEA67F600076DEA /* kzxd@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413991EEA67F500076DEA /* kzxd@2x.jpg */; };
+		6CA413D11EEA67F600076DEA /* kzxd_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4139A1EEA67F500076DEA /* kzxd_icon@2x.jpg */; };
+		6CA413D21EEA67F600076DEA /* nanquan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4139B1EEA67F500076DEA /* nanquan@2x.jpg */; };
+		6CA413D31EEA67F600076DEA /* nanquan_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4139C1EEA67F500076DEA /* nanquan_icon@2x.jpg */; };
+		6CA413D41EEA67F600076DEA /* wf@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4139D1EEA67F500076DEA /* wf@2x.jpg */; };
+		6CA413D51EEA67F600076DEA /* wf_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4139E1EEA67F500076DEA /* wf_icon@2x.jpg */; };
+		6CA413D61EEA67F600076DEA /* zxy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4139F1EEA67F500076DEA /* zxy@2x.jpg */; };
+		6CA413D71EEA67F600076DEA /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A01EEA67F500076DEA /* zxy_icon@2x.jpg */; };
+		6CA413D81EEA67F600076DEA /* 10405520.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A21EEA67F500076DEA /* 10405520.lrc */; };
+		6CA413D91EEA67F600076DEA /* 10736444.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A31EEA67F500076DEA /* 10736444.lrc */; };
+		6CA413DA1EEA67F600076DEA /* 120125029.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A41EEA67F500076DEA /* 120125029.lrc */; };
+		6CA413DB1EEA67F600076DEA /* 12309111.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A51EEA67F500076DEA /* 12309111.lrc */; };
+		6CA413DC1EEA67F600076DEA /* 14945107.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A61EEA67F500076DEA /* 14945107.lrc */; };
+		6CA413DD1EEA67F600076DEA /* 235319.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A71EEA67F500076DEA /* 235319.lrc */; };
+		6CA413DE1EEA67F600076DEA /* 255319.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A81EEA67F500076DEA /* 255319.lrc */; };
+		6CA413DF1EEA67F600076DEA /* 309769.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413A91EEA67F500076DEA /* 309769.lrc */; };
+		6CA413E01EEA67F600076DEA /* 339744.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413AA1EEA67F600076DEA /* 339744.lrc */; };
+		6CA413E11EEA67F600076DEA /* 10405520.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413AC1EEA67F600076DEA /* 10405520.mp3 */; };
+		6CA413E21EEA67F600076DEA /* 10736444.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413AD1EEA67F600076DEA /* 10736444.mp3 */; };
+		6CA413E31EEA67F600076DEA /* 120125029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413AE1EEA67F600076DEA /* 120125029.mp3 */; };
+		6CA413E41EEA67F600076DEA /* 12309111.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413AF1EEA67F600076DEA /* 12309111.mp3 */; };
+		6CA413E51EEA67F600076DEA /* 14945107.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413B01EEA67F600076DEA /* 14945107.mp3 */; };
+		6CA413E61EEA67F600076DEA /* 235319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413B11EEA67F600076DEA /* 235319.mp3 */; };
+		6CA413E71EEA67F600076DEA /* 255319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413B21EEA67F600076DEA /* 255319.mp3 */; };
+		6CA413E81EEA67F600076DEA /* 309769.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413B31EEA67F600076DEA /* 309769.mp3 */; };
+		6CA413E91EEA67F600076DEA /* 339744.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413B41EEA67F600076DEA /* 339744.mp3 */; };
+		6CA413EA1EEA67F600076DEA /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413B51EEA67F600076DEA /* Musics.plist */; };
+		6CA413EB1EEA67F600076DEA /* ZWAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413B81EEA67F600076DEA /* ZWAudioManager.m */; };
+		6CA413EC1EEA67F600076DEA /* ZWImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413BA1EEA67F600076DEA /* ZWImageTool.m */; };
+		6CA413ED1EEA67F600076DEA /* ZWMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA413BC1EEA67F600076DEA /* ZWMusicTool.m */; };
+		6CA413EF1EEA6A9B00076DEA /* 1770040300_2031329_l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CA413EE1EEA6A9B00076DEA /* 1770040300_2031329_l.mp3 */; };
+		6CA413F11EEA76E600076DEA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA413F01EEA76E600076DEA /* MediaPlayer.framework */; };
+		6CF0B6581EE64E7400AA60A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0B6571EE64E7400AA60A1 /* main.m */; };
+		6CF0B65B1EE64E7400AA60A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0B65A1EE64E7400AA60A1 /* AppDelegate.m */; };
+		6CF0B6641EE64E7400AA60A1 /* _____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0B6621EE64E7400AA60A1 /* _____.xcdatamodeld */; };
+		6CF0B6661EE64E7400AA60A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0B6651EE64E7400AA60A1 /* Assets.xcassets */; };
+		6CF0B6691EE64E7400AA60A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0B6671EE64E7400AA60A1 /* LaunchScreen.storyboard */; };
+		6CF0B6741EE64E7500AA60A1 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0B6731EE64E7500AA60A1 /* _____Tests.m */; };
+		6CF0B67F1EE64E7500AA60A1 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0B67E1EE64E7500AA60A1 /* _____UITests.m */; };
+		6CF0B6931EE6823400AA60A1 /* ZWAudioManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0B6921EE6823400AA60A1 /* ZWAudioManagerTests.m */; };
+		9985B1805D25EC729104C2AD /* libPods-ZWMusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E9E298D66C661761C3D78D /* libPods-ZWMusicPlayer.a */; };
+		9C7ECB4AC6A8FBBB8D4831C2 /* libPods-ZWMusicPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 186DC6579A1E55651F0549CE /* libPods-ZWMusicPlayerTests.a */; };
+		AED5F9AD0621330E9A540F68 /* libPods-ZWMusicPlayerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7709A40ABCEDFC2E79E0B8 /* libPods-ZWMusicPlayerUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CF0B6701EE64E7500AA60A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CF0B64B1EE64E7400AA60A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CF0B6521EE64E7400AA60A1;
+			remoteInfo = "音乐播放器";
+		};
+		6CF0B67B1EE64E7500AA60A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CF0B64B1EE64E7400AA60A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CF0B6521EE64E7400AA60A1;
+			remoteInfo = "音乐播放器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186DC6579A1E55651F0549CE /* libPods-ZWMusicPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWMusicPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CC8BF00C718A03BA7D6FE1 /* Pods-音乐播放器Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音乐播放器Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音乐播放器Tests/Pods-音乐播放器Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		33BE797CBA70332926832B6D /* Pods-音乐播放器UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音乐播放器UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-音乐播放器UITests/Pods-音乐播放器UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3677F5DF67F39F1E3B267D53 /* Pods-音乐播放器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音乐播放器.release.xcconfig"; path = "Pods/Target Support Files/Pods-音乐播放器/Pods-音乐播放器.release.xcconfig"; sourceTree = "<group>"; };
+		3ADDD3BFDF6B5D298130EF09 /* Pods-ZWMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWMusicPlayer/Pods-ZWMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7709A40ABCEDFC2E79E0B8 /* libPods-ZWMusicPlayerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWMusicPlayerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA413731EEA67F500076DEA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		6CA413741EEA67F500076DEA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		6CA413781EEA67F500076DEA /* ZWLrcLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLrcLineModel.h; sourceTree = "<group>"; };
+		6CA413791EEA67F500076DEA /* ZWLrcLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLrcLineModel.m; sourceTree = "<group>"; };
+		6CA4137B1EEA67F500076DEA /* ZWLrcCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLrcCell.h; sourceTree = "<group>"; };
+		6CA4137C1EEA67F500076DEA /* ZWLrcCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLrcCell.m; sourceTree = "<group>"; };
+		6CA4137D1EEA67F500076DEA /* ZWLrcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLrcView.h; sourceTree = "<group>"; };
+		6CA4137E1EEA67F500076DEA /* ZWLrcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLrcView.m; sourceTree = "<group>"; };
+		6CA413801EEA67F500076DEA /* ZWPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPlayingViewController.h; sourceTree = "<group>"; };
+		6CA413811EEA67F500076DEA /* ZWPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPlayingViewController.m; sourceTree = "<group>"; };
+		6CA413821EEA67F500076DEA /* ZWPlayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWPlayingViewController.xib; sourceTree = "<group>"; };
+		6CA413851EEA67F500076DEA /* ZWMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMusicModel.h; sourceTree = "<group>"; };
+		6CA413861EEA67F500076DEA /* ZWMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMusicModel.m; sourceTree = "<group>"; };
+		6CA413881EEA67F500076DEA /* ZWMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMusicCell.h; sourceTree = "<group>"; };
+		6CA413891EEA67F500076DEA /* ZWMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMusicCell.m; sourceTree = "<group>"; };
+		6CA4138B1EEA67F500076DEA /* ZWMusicPlayingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMusicPlayingController.h; sourceTree = "<group>"; };
+		6CA4138C1EEA67F500076DEA /* ZWMusicPlayingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMusicPlayingController.m; sourceTree = "<group>"; };
+		6CA4138F1EEA67F500076DEA /* bb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb@2x.jpg"; sourceTree = "<group>"; };
+		6CA413901EEA67F500076DEA /* bb_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb_icon@2x.jpg"; sourceTree = "<group>"; };
+		6CA413911EEA67F500076DEA /* dzq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq@2x.jpg"; sourceTree = "<group>"; };
+		6CA413921EEA67F500076DEA /* dzq_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq_icon@2x.jpg"; sourceTree = "<group>"; };
+		6CA413931EEA67F500076DEA /* eason@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason@2x.jpg"; sourceTree = "<group>"; };
+		6CA413941EEA67F500076DEA /* eason_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason_icon@2x.jpg"; sourceTree = "<group>"; };
+		6CA413951EEA67F500076DEA /* jay@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jay@2x.jpg"; sourceTree = "<group>"; };
+		6CA413961EEA67F500076DEA /* jay_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jay_icon@2x.png"; sourceTree = "<group>"; };
+		6CA413971EEA67F500076DEA /* jj@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jj@2x.jpg"; sourceTree = "<group>"; };
+		6CA413981EEA67F500076DEA /* jj_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jj_icon@2x.png"; sourceTree = "<group>"; };
+		6CA413991EEA67F500076DEA /* kzxd@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd@2x.jpg"; sourceTree = "<group>"; };
+		6CA4139A1EEA67F500076DEA /* kzxd_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd_icon@2x.jpg"; sourceTree = "<group>"; };
+		6CA4139B1EEA67F500076DEA /* nanquan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan@2x.jpg"; sourceTree = "<group>"; };
+		6CA4139C1EEA67F500076DEA /* nanquan_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan_icon@2x.jpg"; sourceTree = "<group>"; };
+		6CA4139D1EEA67F500076DEA /* wf@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf@2x.jpg"; sourceTree = "<group>"; };
+		6CA4139E1EEA67F500076DEA /* wf_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf_icon@2x.jpg"; sourceTree = "<group>"; };
+		6CA4139F1EEA67F500076DEA /* zxy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy@2x.jpg"; sourceTree = "<group>"; };
+		6CA413A01EEA67F500076DEA /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy_icon@2x.jpg"; sourceTree = "<group>"; };
+		6CA413A21EEA67F500076DEA /* 10405520.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10405520.lrc; sourceTree = "<group>"; };
+		6CA413A31EEA67F500076DEA /* 10736444.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10736444.lrc; sourceTree = "<group>"; };
+		6CA413A41EEA67F500076DEA /* 120125029.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 120125029.lrc; sourceTree = "<group>"; };
+		6CA413A51EEA67F500076DEA /* 12309111.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 12309111.lrc; sourceTree = "<group>"; };
+		6CA413A61EEA67F500076DEA /* 14945107.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 14945107.lrc; sourceTree = "<group>"; };
+		6CA413A71EEA67F500076DEA /* 235319.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 235319.lrc; sourceTree = "<group>"; };
+		6CA413A81EEA67F500076DEA /* 255319.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 255319.lrc; sourceTree = "<group>"; };
+		6CA413A91EEA67F500076DEA /* 309769.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 309769.lrc; sourceTree = "<group>"; };
+		6CA413AA1EEA67F600076DEA /* 339744.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 339744.lrc; sourceTree = "<group>"; };
+		6CA413AC1EEA67F600076DEA /* 10405520.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10405520.mp3; sourceTree = "<group>"; };
+		6CA413AD1EEA67F600076DEA /* 10736444.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10736444.mp3; sourceTree = "<group>"; };
+		6CA413AE1EEA67F600076DEA /* 120125029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 120125029.mp3; sourceTree = "<group>"; };
+		6CA413AF1EEA67F600076DEA /* 12309111.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12309111.mp3; sourceTree = "<group>"; };
+		6CA413B01EEA67F600076DEA /* 14945107.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14945107.mp3; sourceTree = "<group>"; };
+		6CA413B11EEA67F600076DEA /* 235319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 235319.mp3; sourceTree = "<group>"; };
+		6CA413B21EEA67F600076DEA /* 255319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 255319.mp3; sourceTree = "<group>"; };
+		6CA413B31EEA67F600076DEA /* 309769.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 309769.mp3; sourceTree = "<group>"; };
+		6CA413B41EEA67F600076DEA /* 339744.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 339744.mp3; sourceTree = "<group>"; };
+		6CA413B51EEA67F600076DEA /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		6CA413B71EEA67F600076DEA /* ZWAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAudioManager.h; sourceTree = "<group>"; };
+		6CA413B81EEA67F600076DEA /* ZWAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAudioManager.m; sourceTree = "<group>"; };
+		6CA413B91EEA67F600076DEA /* ZWImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImageTool.h; sourceTree = "<group>"; };
+		6CA413BA1EEA67F600076DEA /* ZWImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImageTool.m; sourceTree = "<group>"; };
+		6CA413BB1EEA67F600076DEA /* ZWMusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMusicTool.h; sourceTree = "<group>"; };
+		6CA413BC1EEA67F600076DEA /* ZWMusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMusicTool.m; sourceTree = "<group>"; };
+		6CA413EE1EEA6A9B00076DEA /* 1770040300_2031329_l.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1770040300_2031329_l.mp3; sourceTree = "<group>"; };
+		6CA413F01EEA76E600076DEA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6CF0B6531EE64E7400AA60A1 /* ZWMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF0B6571EE64E7400AA60A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CF0B6591EE64E7400AA60A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CF0B65A1EE64E7400AA60A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CF0B6631EE64E7400AA60A1 /* _____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____.xcdatamodel"; sourceTree = "<group>"; };
+		6CF0B6651EE64E7400AA60A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CF0B6681EE64E7400AA60A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CF0B66A1EE64E7400AA60A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF0B66F1EE64E7500AA60A1 /* ZWMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF0B6731EE64E7500AA60A1 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		6CF0B6751EE64E7500AA60A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF0B67A1EE64E7500AA60A1 /* ZWMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF0B67E1EE64E7500AA60A1 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		6CF0B6801EE64E7500AA60A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF0B6921EE6823400AA60A1 /* ZWAudioManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAudioManagerTests.m; sourceTree = "<group>"; };
+		73AF28CE26E304688BE7AD0A /* Pods-ZWMusicPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWMusicPlayerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWMusicPlayerUITests/Pods-ZWMusicPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74506957A7DCCAFE0FD40678 /* Pods-ZWMusicPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWMusicPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWMusicPlayerUITests/Pods-ZWMusicPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77DB768799C42339DEFFF1C6 /* Pods-ZWMusicPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWMusicPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWMusicPlayerTests/Pods-ZWMusicPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A16932DC876167E6643A97A /* Pods-音乐播放器Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音乐播放器Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-音乐播放器Tests/Pods-音乐播放器Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9BD29533A4ED8F73EC6F5B26 /* Pods-ZWMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWMusicPlayer/Pods-ZWMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		C2980D604CDA4357A16CB074 /* Pods-ZWMusicPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWMusicPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWMusicPlayerTests/Pods-ZWMusicPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D657124AD9AE4AB319B876B6 /* Pods-音乐播放器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音乐播放器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音乐播放器/Pods-音乐播放器.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E9E298D66C661761C3D78D /* libPods-ZWMusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWMusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E725E4FC0FBEE606032CE5B6 /* Pods-音乐播放器UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音乐播放器UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音乐播放器UITests/Pods-音乐播放器UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CF0B6501EE64E7400AA60A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA413F11EEA76E600076DEA /* MediaPlayer.framework in Frameworks */,
+				9985B1805D25EC729104C2AD /* libPods-ZWMusicPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF0B66C1EE64E7500AA60A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7ECB4AC6A8FBBB8D4831C2 /* libPods-ZWMusicPlayerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF0B6771EE64E7500AA60A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED5F9AD0621330E9A540F68 /* libPods-ZWMusicPlayerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7EB2E5DB9E38C89D192C1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D657124AD9AE4AB319B876B6 /* Pods-音乐播放器.debug.xcconfig */,
+				3677F5DF67F39F1E3B267D53 /* Pods-音乐播放器.release.xcconfig */,
+				24CC8BF00C718A03BA7D6FE1 /* Pods-音乐播放器Tests.debug.xcconfig */,
+				7A16932DC876167E6643A97A /* Pods-音乐播放器Tests.release.xcconfig */,
+				E725E4FC0FBEE606032CE5B6 /* Pods-音乐播放器UITests.debug.xcconfig */,
+				33BE797CBA70332926832B6D /* Pods-音乐播放器UITests.release.xcconfig */,
+				3ADDD3BFDF6B5D298130EF09 /* Pods-ZWMusicPlayer.debug.xcconfig */,
+				9BD29533A4ED8F73EC6F5B26 /* Pods-ZWMusicPlayer.release.xcconfig */,
+				C2980D604CDA4357A16CB074 /* Pods-ZWMusicPlayerTests.debug.xcconfig */,
+				77DB768799C42339DEFFF1C6 /* Pods-ZWMusicPlayerTests.release.xcconfig */,
+				73AF28CE26E304688BE7AD0A /* Pods-ZWMusicPlayerUITests.debug.xcconfig */,
+				74506957A7DCCAFE0FD40678 /* Pods-ZWMusicPlayerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CA413721EEA67F500076DEA /* category */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413731EEA67F500076DEA /* UIView+Extension.h */,
+				6CA413741EEA67F500076DEA /* UIView+Extension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		6CA413751EEA67F500076DEA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413761EEA67F500076DEA /* PlayLrc */,
+				6CA413831EEA67F500076DEA /* PlayMusic */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		6CA413761EEA67F500076DEA /* PlayLrc */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413771EEA67F500076DEA /* Model */,
+				6CA4137A1EEA67F500076DEA /* View */,
+				6CA4137F1EEA67F500076DEA /* ViewController */,
+			);
+			path = PlayLrc;
+			sourceTree = "<group>";
+		};
+		6CA413771EEA67F500076DEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413781EEA67F500076DEA /* ZWLrcLineModel.h */,
+				6CA413791EEA67F500076DEA /* ZWLrcLineModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA4137A1EEA67F500076DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4137B1EEA67F500076DEA /* ZWLrcCell.h */,
+				6CA4137C1EEA67F500076DEA /* ZWLrcCell.m */,
+				6CA4137D1EEA67F500076DEA /* ZWLrcView.h */,
+				6CA4137E1EEA67F500076DEA /* ZWLrcView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA4137F1EEA67F500076DEA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413801EEA67F500076DEA /* ZWPlayingViewController.h */,
+				6CA413811EEA67F500076DEA /* ZWPlayingViewController.m */,
+				6CA413821EEA67F500076DEA /* ZWPlayingViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6CA413831EEA67F500076DEA /* PlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413841EEA67F500076DEA /* Model */,
+				6CA413871EEA67F500076DEA /* View */,
+				6CA4138A1EEA67F500076DEA /* ViewController */,
+			);
+			path = PlayMusic;
+			sourceTree = "<group>";
+		};
+		6CA413841EEA67F500076DEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413851EEA67F500076DEA /* ZWMusicModel.h */,
+				6CA413861EEA67F500076DEA /* ZWMusicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA413871EEA67F500076DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413881EEA67F500076DEA /* ZWMusicCell.h */,
+				6CA413891EEA67F500076DEA /* ZWMusicCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA4138A1EEA67F500076DEA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4138B1EEA67F500076DEA /* ZWMusicPlayingController.h */,
+				6CA4138C1EEA67F500076DEA /* ZWMusicPlayingController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6CA4138D1EEA67F500076DEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4138E1EEA67F500076DEA /* Images */,
+				6CA413A11EEA67F500076DEA /* Lrcs */,
+				6CA413AB1EEA67F600076DEA /* MP3s */,
+				6CA413B51EEA67F600076DEA /* Musics.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6CA4138E1EEA67F500076DEA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4138F1EEA67F500076DEA /* bb@2x.jpg */,
+				6CA413901EEA67F500076DEA /* bb_icon@2x.jpg */,
+				6CA413911EEA67F500076DEA /* dzq@2x.jpg */,
+				6CA413921EEA67F500076DEA /* dzq_icon@2x.jpg */,
+				6CA413931EEA67F500076DEA /* eason@2x.jpg */,
+				6CA413941EEA67F500076DEA /* eason_icon@2x.jpg */,
+				6CA413951EEA67F500076DEA /* jay@2x.jpg */,
+				6CA413961EEA67F500076DEA /* jay_icon@2x.png */,
+				6CA413971EEA67F500076DEA /* jj@2x.jpg */,
+				6CA413981EEA67F500076DEA /* jj_icon@2x.png */,
+				6CA413991EEA67F500076DEA /* kzxd@2x.jpg */,
+				6CA4139A1EEA67F500076DEA /* kzxd_icon@2x.jpg */,
+				6CA4139B1EEA67F500076DEA /* nanquan@2x.jpg */,
+				6CA4139C1EEA67F500076DEA /* nanquan_icon@2x.jpg */,
+				6CA4139D1EEA67F500076DEA /* wf@2x.jpg */,
+				6CA4139E1EEA67F500076DEA /* wf_icon@2x.jpg */,
+				6CA4139F1EEA67F500076DEA /* zxy@2x.jpg */,
+				6CA413A01EEA67F500076DEA /* zxy_icon@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6CA413A11EEA67F500076DEA /* Lrcs */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413A21EEA67F500076DEA /* 10405520.lrc */,
+				6CA413A31EEA67F500076DEA /* 10736444.lrc */,
+				6CA413A41EEA67F500076DEA /* 120125029.lrc */,
+				6CA413A51EEA67F500076DEA /* 12309111.lrc */,
+				6CA413A61EEA67F500076DEA /* 14945107.lrc */,
+				6CA413A71EEA67F500076DEA /* 235319.lrc */,
+				6CA413A81EEA67F500076DEA /* 255319.lrc */,
+				6CA413A91EEA67F500076DEA /* 309769.lrc */,
+				6CA413AA1EEA67F600076DEA /* 339744.lrc */,
+			);
+			path = Lrcs;
+			sourceTree = "<group>";
+		};
+		6CA413AB1EEA67F600076DEA /* MP3s */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413AC1EEA67F600076DEA /* 10405520.mp3 */,
+				6CA413AD1EEA67F600076DEA /* 10736444.mp3 */,
+				6CA413AE1EEA67F600076DEA /* 120125029.mp3 */,
+				6CA413AF1EEA67F600076DEA /* 12309111.mp3 */,
+				6CA413B01EEA67F600076DEA /* 14945107.mp3 */,
+				6CA413B11EEA67F600076DEA /* 235319.mp3 */,
+				6CA413B21EEA67F600076DEA /* 255319.mp3 */,
+				6CA413B31EEA67F600076DEA /* 309769.mp3 */,
+				6CA413B41EEA67F600076DEA /* 339744.mp3 */,
+			);
+			path = MP3s;
+			sourceTree = "<group>";
+		};
+		6CA413B61EEA67F600076DEA /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413B71EEA67F600076DEA /* ZWAudioManager.h */,
+				6CA413B81EEA67F600076DEA /* ZWAudioManager.m */,
+				6CA413B91EEA67F600076DEA /* ZWImageTool.h */,
+				6CA413BA1EEA67F600076DEA /* ZWImageTool.m */,
+				6CA413BB1EEA67F600076DEA /* ZWMusicTool.h */,
+				6CA413BC1EEA67F600076DEA /* ZWMusicTool.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		6CF0B64A1EE64E7400AA60A1 = {
+			isa = PBXGroup;
+			children = (
+				6CF0B6551EE64E7400AA60A1 /* ZWMusicPlayer */,
+				6CF0B6721EE64E7500AA60A1 /* ZWMusicPlayerTests */,
+				6CF0B67D1EE64E7500AA60A1 /* ZWMusicPlayerUITests */,
+				6CF0B6541EE64E7400AA60A1 /* Products */,
+				1F7EB2E5DB9E38C89D192C1E /* Pods */,
+				939F1224D70E7EF78FF2649C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CF0B6541EE64E7400AA60A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0B6531EE64E7400AA60A1 /* ZWMusicPlayer.app */,
+				6CF0B66F1EE64E7500AA60A1 /* ZWMusicPlayerTests.xctest */,
+				6CF0B67A1EE64E7500AA60A1 /* ZWMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CF0B6551EE64E7400AA60A1 /* ZWMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0B6591EE64E7400AA60A1 /* AppDelegate.h */,
+				6CF0B65A1EE64E7400AA60A1 /* AppDelegate.m */,
+				6CA413B61EEA67F600076DEA /* tools */,
+				6CA413721EEA67F500076DEA /* category */,
+				6CA413751EEA67F500076DEA /* classes */,
+				6CA4138D1EEA67F500076DEA /* Resources */,
+				6CF0B6561EE64E7400AA60A1 /* Supporting Files */,
+			);
+			path = ZWMusicPlayer;
+			sourceTree = "<group>";
+		};
+		6CF0B6561EE64E7400AA60A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0B6651EE64E7400AA60A1 /* Assets.xcassets */,
+				6CF0B6671EE64E7400AA60A1 /* LaunchScreen.storyboard */,
+				6CF0B66A1EE64E7400AA60A1 /* Info.plist */,
+				6CF0B6621EE64E7400AA60A1 /* _____.xcdatamodeld */,
+				6CF0B6571EE64E7400AA60A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CF0B6721EE64E7500AA60A1 /* ZWMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413EE1EEA6A9B00076DEA /* 1770040300_2031329_l.mp3 */,
+				6CF0B6921EE6823400AA60A1 /* ZWAudioManagerTests.m */,
+				6CF0B6731EE64E7500AA60A1 /* _____Tests.m */,
+				6CF0B6751EE64E7500AA60A1 /* Info.plist */,
+			);
+			path = ZWMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		6CF0B67D1EE64E7500AA60A1 /* ZWMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0B67E1EE64E7500AA60A1 /* _____UITests.m */,
+				6CF0B6801EE64E7500AA60A1 /* Info.plist */,
+			);
+			path = ZWMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		939F1224D70E7EF78FF2649C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CA413F01EEA76E600076DEA /* MediaPlayer.framework */,
+				E0E9E298D66C661761C3D78D /* libPods-ZWMusicPlayer.a */,
+				186DC6579A1E55651F0549CE /* libPods-ZWMusicPlayerTests.a */,
+				4A7709A40ABCEDFC2E79E0B8 /* libPods-ZWMusicPlayerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CF0B6521EE64E7400AA60A1 /* ZWMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF0B6831EE64E7500AA60A1 /* Build configuration list for PBXNativeTarget "ZWMusicPlayer" */;
+			buildPhases = (
+				570B967370F1899E7CFA3166 /* [CP] Check Pods Manifest.lock */,
+				6CF0B64F1EE64E7400AA60A1 /* Sources */,
+				6CF0B6501EE64E7400AA60A1 /* Frameworks */,
+				6CF0B6511EE64E7400AA60A1 /* Resources */,
+				5627D249A481D992E2D89487 /* [CP] Embed Pods Frameworks */,
+				73ABB01FFD18A7CFC5501B9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWMusicPlayer;
+			productName = "音乐播放器";
+			productReference = 6CF0B6531EE64E7400AA60A1 /* ZWMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CF0B66E1EE64E7500AA60A1 /* ZWMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF0B6861EE64E7500AA60A1 /* Build configuration list for PBXNativeTarget "ZWMusicPlayerTests" */;
+			buildPhases = (
+				73FB867B0F98E1C99C6C73DC /* [CP] Check Pods Manifest.lock */,
+				6CF0B66B1EE64E7500AA60A1 /* Sources */,
+				6CF0B66C1EE64E7500AA60A1 /* Frameworks */,
+				6CF0B66D1EE64E7500AA60A1 /* Resources */,
+				4091BEBA081F6B5BA94BAB60 /* [CP] Embed Pods Frameworks */,
+				79591D99D5028071769666F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF0B6711EE64E7500AA60A1 /* PBXTargetDependency */,
+			);
+			name = ZWMusicPlayerTests;
+			productName = "音乐播放器Tests";
+			productReference = 6CF0B66F1EE64E7500AA60A1 /* ZWMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CF0B6791EE64E7500AA60A1 /* ZWMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF0B6891EE64E7500AA60A1 /* Build configuration list for PBXNativeTarget "ZWMusicPlayerUITests" */;
+			buildPhases = (
+				93B15029641F1B9ED1E33EBE /* [CP] Check Pods Manifest.lock */,
+				6CF0B6761EE64E7500AA60A1 /* Sources */,
+				6CF0B6771EE64E7500AA60A1 /* Frameworks */,
+				6CF0B6781EE64E7500AA60A1 /* Resources */,
+				1C863B98B6C15BCBB2FB42AA /* [CP] Embed Pods Frameworks */,
+				CF2DED24A9B5CBD95121FFB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF0B67C1EE64E7500AA60A1 /* PBXTargetDependency */,
+			);
+			name = ZWMusicPlayerUITests;
+			productName = "音乐播放器UITests";
+			productReference = 6CF0B67A1EE64E7500AA60A1 /* ZWMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CF0B64B1EE64E7400AA60A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZW;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xzw;
+				TargetAttributes = {
+					6CF0B6521EE64E7400AA60A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P3RDC7VBN6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6CF0B66E1EE64E7500AA60A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CF0B6521EE64E7400AA60A1;
+					};
+					6CF0B6791EE64E7500AA60A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CF0B6521EE64E7400AA60A1;
+					};
+				};
+			};
+			buildConfigurationList = 6CF0B64E1EE64E7400AA60A1 /* Build configuration list for PBXProject "ZWMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CF0B64A1EE64E7400AA60A1;
+			productRefGroup = 6CF0B6541EE64E7400AA60A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CF0B6521EE64E7400AA60A1 /* ZWMusicPlayer */,
+				6CF0B66E1EE64E7500AA60A1 /* ZWMusicPlayerTests */,
+				6CF0B6791EE64E7500AA60A1 /* ZWMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CF0B6511EE64E7400AA60A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA413DE1EEA67F600076DEA /* 255319.lrc in Resources */,
+				6CA413E21EEA67F600076DEA /* 10736444.mp3 in Resources */,
+				6CA413C21EEA67F600076DEA /* ZWPlayingViewController.xib in Resources */,
+				6CA413C71EEA67F600076DEA /* bb_icon@2x.jpg in Resources */,
+				6CA413E61EEA67F600076DEA /* 235319.mp3 in Resources */,
+				6CA413D11EEA67F600076DEA /* kzxd_icon@2x.jpg in Resources */,
+				6CA413D01EEA67F600076DEA /* kzxd@2x.jpg in Resources */,
+				6CA413CB1EEA67F600076DEA /* eason_icon@2x.jpg in Resources */,
+				6CA413DC1EEA67F600076DEA /* 14945107.lrc in Resources */,
+				6CA413EA1EEA67F600076DEA /* Musics.plist in Resources */,
+				6CF0B6691EE64E7400AA60A1 /* LaunchScreen.storyboard in Resources */,
+				6CA413CA1EEA67F600076DEA /* eason@2x.jpg in Resources */,
+				6CA413D81EEA67F600076DEA /* 10405520.lrc in Resources */,
+				6CF0B6661EE64E7400AA60A1 /* Assets.xcassets in Resources */,
+				6CA413E31EEA67F600076DEA /* 120125029.mp3 in Resources */,
+				6CA413E71EEA67F600076DEA /* 255319.mp3 in Resources */,
+				6CA413CF1EEA67F600076DEA /* jj_icon@2x.png in Resources */,
+				6CA413C61EEA67F600076DEA /* bb@2x.jpg in Resources */,
+				6CA413D61EEA67F600076DEA /* zxy@2x.jpg in Resources */,
+				6CA413DA1EEA67F600076DEA /* 120125029.lrc in Resources */,
+				6CA413CD1EEA67F600076DEA /* jay_icon@2x.png in Resources */,
+				6CA413E41EEA67F600076DEA /* 12309111.mp3 in Resources */,
+				6CA413E91EEA67F600076DEA /* 339744.mp3 in Resources */,
+				6CA413DD1EEA67F600076DEA /* 235319.lrc in Resources */,
+				6CA413D51EEA67F600076DEA /* wf_icon@2x.jpg in Resources */,
+				6CA413E81EEA67F600076DEA /* 309769.mp3 in Resources */,
+				6CA413CE1EEA67F600076DEA /* jj@2x.jpg in Resources */,
+				6CA413DB1EEA67F600076DEA /* 12309111.lrc in Resources */,
+				6CA413E01EEA67F600076DEA /* 339744.lrc in Resources */,
+				6CA413DF1EEA67F600076DEA /* 309769.lrc in Resources */,
+				6CA413D91EEA67F600076DEA /* 10736444.lrc in Resources */,
+				6CA413D41EEA67F600076DEA /* wf@2x.jpg in Resources */,
+				6CA413CC1EEA67F600076DEA /* jay@2x.jpg in Resources */,
+				6CA413E51EEA67F600076DEA /* 14945107.mp3 in Resources */,
+				6CA413D31EEA67F600076DEA /* nanquan_icon@2x.jpg in Resources */,
+				6CA413E11EEA67F600076DEA /* 10405520.mp3 in Resources */,
+				6CA413D21EEA67F600076DEA /* nanquan@2x.jpg in Resources */,
+				6CA413D71EEA67F600076DEA /* zxy_icon@2x.jpg in Resources */,
+				6CA413C81EEA67F600076DEA /* dzq@2x.jpg in Resources */,
+				6CA413C91EEA67F600076DEA /* dzq_icon@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF0B66D1EE64E7500AA60A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA413EF1EEA6A9B00076DEA /* 1770040300_2031329_l.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF0B6781EE64E7500AA60A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C863B98B6C15BCBB2FB42AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWMusicPlayerUITests/Pods-ZWMusicPlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4091BEBA081F6B5BA94BAB60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWMusicPlayerTests/Pods-ZWMusicPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5627D249A481D992E2D89487 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWMusicPlayer/Pods-ZWMusicPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		570B967370F1899E7CFA3166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73ABB01FFD18A7CFC5501B9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWMusicPlayer/Pods-ZWMusicPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73FB867B0F98E1C99C6C73DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79591D99D5028071769666F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWMusicPlayerTests/Pods-ZWMusicPlayerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B15029641F1B9ED1E33EBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2DED24A9B5CBD95121FFB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWMusicPlayerUITests/Pods-ZWMusicPlayerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CF0B64F1EE64E7400AA60A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA413C51EEA67F600076DEA /* ZWMusicPlayingController.m in Sources */,
+				6CA413C41EEA67F600076DEA /* ZWMusicCell.m in Sources */,
+				6CA413C31EEA67F600076DEA /* ZWMusicModel.m in Sources */,
+				6CA413C11EEA67F600076DEA /* ZWPlayingViewController.m in Sources */,
+				6CA413ED1EEA67F600076DEA /* ZWMusicTool.m in Sources */,
+				6CA413BF1EEA67F600076DEA /* ZWLrcCell.m in Sources */,
+				6CA413BE1EEA67F600076DEA /* ZWLrcLineModel.m in Sources */,
+				6CF0B6641EE64E7400AA60A1 /* _____.xcdatamodeld in Sources */,
+				6CF0B65B1EE64E7400AA60A1 /* AppDelegate.m in Sources */,
+				6CA413EC1EEA67F600076DEA /* ZWImageTool.m in Sources */,
+				6CA413C01EEA67F600076DEA /* ZWLrcView.m in Sources */,
+				6CA413EB1EEA67F600076DEA /* ZWAudioManager.m in Sources */,
+				6CA413BD1EEA67F600076DEA /* UIView+Extension.m in Sources */,
+				6CF0B6581EE64E7400AA60A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF0B66B1EE64E7500AA60A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF0B6741EE64E7500AA60A1 /* _____Tests.m in Sources */,
+				6CF0B6931EE6823400AA60A1 /* ZWAudioManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF0B6761EE64E7500AA60A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF0B67F1EE64E7500AA60A1 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CF0B6711EE64E7500AA60A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CF0B6521EE64E7400AA60A1 /* ZWMusicPlayer */;
+			targetProxy = 6CF0B6701EE64E7500AA60A1 /* PBXContainerItemProxy */;
+		};
+		6CF0B67C1EE64E7500AA60A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CF0B6521EE64E7400AA60A1 /* ZWMusicPlayer */;
+			targetProxy = 6CF0B67B1EE64E7500AA60A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CF0B6671EE64E7400AA60A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF0B6681EE64E7400AA60A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CF0B6811EE64E7500AA60A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CF0B6821EE64E7500AA60A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CF0B6841EE64E7500AA60A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADDD3BFDF6B5D298130EF09 /* Pods-ZWMusicPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3RDC7VBN6;
+				INFOPLIST_FILE = ZWMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xzw.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CF0B6851EE64E7500AA60A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD29533A4ED8F73EC6F5B26 /* Pods-ZWMusicPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3RDC7VBN6;
+				INFOPLIST_FILE = ZWMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xzw.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CF0B6871EE64E7500AA60A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2980D604CDA4357A16CB074 /* Pods-ZWMusicPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZWMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xzw.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWMusicPlayer.app/ZWMusicPlayer";
+			};
+			name = Debug;
+		};
+		6CF0B6881EE64E7500AA60A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DB768799C42339DEFFF1C6 /* Pods-ZWMusicPlayerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZWMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xzw.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWMusicPlayer.app/ZWMusicPlayer";
+			};
+			name = Release;
+		};
+		6CF0B68A1EE64E7500AA60A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AF28CE26E304688BE7AD0A /* Pods-ZWMusicPlayerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZWMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xzw.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWMusicPlayer;
+			};
+			name = Debug;
+		};
+		6CF0B68B1EE64E7500AA60A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74506957A7DCCAFE0FD40678 /* Pods-ZWMusicPlayerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZWMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xzw.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CF0B64E1EE64E7400AA60A1 /* Build configuration list for PBXProject "ZWMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF0B6811EE64E7500AA60A1 /* Debug */,
+				6CF0B6821EE64E7500AA60A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF0B6831EE64E7500AA60A1 /* Build configuration list for PBXNativeTarget "ZWMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF0B6841EE64E7500AA60A1 /* Debug */,
+				6CF0B6851EE64E7500AA60A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF0B6861EE64E7500AA60A1 /* Build configuration list for PBXNativeTarget "ZWMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF0B6871EE64E7500AA60A1 /* Debug */,
+				6CF0B6881EE64E7500AA60A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF0B6891EE64E7500AA60A1 /* Build configuration list for PBXNativeTarget "ZWMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF0B68A1EE64E7500AA60A1 /* Debug */,
+				6CF0B68B1EE64E7500AA60A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CF0B6621EE64E7400AA60A1 /* _____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CF0B6631EE64E7400AA60A1 /* _____.xcdatamodel */,
+			);
+			currentVersion = 6CF0B6631EE64E7400AA60A1 /* _____.xcdatamodel */;
+			path = "_____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CF0B64B1EE64E7400AA60A1 /* Project object */;
+}
